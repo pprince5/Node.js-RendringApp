@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Prince" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>About</title>
+  </head>
+  <body class="grid grid-rows-[auto,1fr,auto] min-h-screen">
+    <header><%- include('partials/navbar', {page: '/about'}) %></header>
+    <main>
+      <div class="container mx-auto p-4">
+        <div class="hero bg-blue-500 text-white p-10 text-center mb-10">
+          <div class="hero-content text-center">
+            <div class="max-w-md">
+              <h1 class="text-4xl mb-4">About</h1>
+              <p class="mb-4">
+                HAVE A LOOK AT MY JOURNEY OF BECOMING A PRPGRAMMER
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="hero min-h-screen bg-base-200 gap-4 flex flex-row">
+          <div>
+            <img
+              class="w-full rounded-lg"
+              src="/images/haroon.jpeg"
+              alt="Haroon Waseem Baig"
+              class="w-full"
+            />
+          </div>
+          <div class="ml-4 col-span-1 flex flex-col justify-top">
+            <img src="https://static.tildacdn.com/tild3830-3334-4532-b361-326134363539/stay_focused_girl.jpg" alt="Determind" class="rounded-lg shadow-xl" width="300" height="300" />
+            <p>Hello, my name is Prince. Currently, I am pursuing computer programming course at seneca. This is my 3rd semester in which i am learning web-dev(frontenf and backend).
+
+              This workshop makes me familiar with tailwind and cycle.
+              My hobbies include:
+            <ul>
+              <li>basketball</li>
+              <li>learning new things</li>
+              <li>Travelling</li>
+            </ul></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <%- include('partials/footer') %>
+  </body>
+</html>
