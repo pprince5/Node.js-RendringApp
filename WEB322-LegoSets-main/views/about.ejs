@@ -1,0 +1,77 @@
+<!--/********************************************************************************
+* BTI325 – Assignment 03
+*
+* I declare that this assignment is my own work in accordance with Seneca's
+* Academic Integrity Policy:
+*
+* https://www.senecacollege.ca/about/policies/academic-integrity-policy.html
+*
+* Name: Prince Prince Student ID: 127962223____ Date: _15 October 2023__
+*
+********************************************************************************/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lego Collection</title>
+  <link rel="stylesheet" href="/css/main.css" />
+
+</head>
+
+<style>
+  p {
+    color: rgba(255, 255, 255, 0.662);
+  }
+</style>
+
+<body tabindex="-1">
+  <%- include('partials/navbar', {page: '/about' }) %>
+
+    <div class="container mx-auto">
+
+      <div class="hero bg-base-200 rounded-lg p-6">
+        <div class="hero-content text-center ">
+          <div class="max-w-md">
+            <h1 class="text-5xl font-bold">About</h1>
+
+            <p class="py-6">Everything you want to know about me - the designer &amp; developer.</p>
+
+          </div>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <img class="w-full rounded-lg" style="border-radius: 0%;"
+            src="https://i.pinimg.com/originals/c8/34/ec/c834ec8ebdcb5b0e6217cbd7c57a7f15.gif" alt="profile" />
+
+        </div>
+        <div class="prose text-white p-4 md:p-0">
+
+          <p>
+            I am a passionate software developer specializing in app development,
+             currently focused on creating an innovative LEGO set application. 
+             This app allows users to explore a comprehensive library of LEGO sets while 
+             accessing detailed information about each one. I leverage advanced technologies 
+             like MongoDB and PostgreSQL to efficiently manage data, ensuring a seamless user 
+             experience. By utilizing online cloud services, I provide users with fast, 
+             reliable access to the application from anywhere. My commitment is to deliver 
+             high-quality software solutions that connect LEGO enthusiasts globally, fostering a vibrant community 
+             around creativity and exploration. I am dedicated to continuous learning, always staying updated on the latest
+              trends and technologies to keep my applications at the forefront of innovation.
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+</body>
+
+</html>
